@@ -19,5 +19,5 @@ class Car:
         return self.mileage
     
 car1 = Car(colour= 'красный',liters= 20)
-print(car1.drive())
+car1.drive()
 print(car1.get_mileage())
